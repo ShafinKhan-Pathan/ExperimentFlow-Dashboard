@@ -45,16 +45,6 @@ The app uses static typed mock data and local React state, so it behaves like a 
 - Vite
 - PostCSS
 
-## Performance
-
-Production build Lighthouse results:
-
-- Desktop Performance: 90+
-- Mobile Performance: 90+
-
-![Desktop Lighthouse](./public/assets/Desktop_LighthouseScore.png)
-![Mobile Lighthouse](./public/assets/Mobile_LighthouseScore.png)
-
 ## Why This Project
 
 Experimentation dashboards are a strong frontend challenge because they combine:
@@ -208,6 +198,16 @@ These improvements help reduce:
 - bundle overhead
 - paint and layout work on mobile devices
 
+## Performance
+
+Production build Lighthouse results:
+
+- Desktop Performance: 90+
+- Mobile Performance: 90+
+
+![Desktop Lighthouse](./public/assets/Desktop_LighthouseScore.png)
+![Mobile Lighthouse](./public/assets/Mobile_LighthouseScore.png)
+
 ## Accessibility Improvements
 
 The app also includes accessibility-focused improvements:
@@ -220,16 +220,6 @@ The app also includes accessibility-focused improvements:
 - better focus-visible states
 - improved heading/section relationships
 - stronger text contrast in key UI areas
-
-## Example Interview Talking Points
-
-If you are using this project in interviews, these are good points to mention:
-
-- I used TypeScript to make the experiment, flag, and results data model explicit and safer to refactor.
-- I avoided overengineering state management by storing only essential UI state and deriving the rest.
-- I treated product behavior as part of the frontend, not just visual output.
-- I improved both bundle cost and render cost when optimizing Lighthouse performance.
-- I improved accessibility through semantics, focus management, labeling, and contrast rather than treating it as a checklist item.
 
 ## Future Enhancements
 
