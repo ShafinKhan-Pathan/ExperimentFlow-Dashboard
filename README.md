@@ -45,6 +45,16 @@ The app uses static typed mock data and local React state, so it behaves like a 
 - Vite
 - PostCSS
 
+## Performance
+
+Production build Lighthouse results:
+
+- Desktop Performance: 90+
+- Mobile Performance: 90+
+
+![Desktop Lighthouse](./public/assets/Desktop_LighthouseScore.png)
+![Mobile Lighthouse](./public/assets/Mobile_LighthouseScore.png)
+
 ## Why This Project
 
 Experimentation dashboards are a strong frontend challenge because they combine:
